@@ -2,7 +2,7 @@
 
 This program helps extract key insights from legal documents using AI-powered text analysis. It utilizes advanced natural language processing (NLP) techniques to summarize legal text and highlight the most critical sentences.
 
-[Visit our project on google colab]([https://www.example.com](https://colab.research.google.com/drive/1HaKfQf_nTephfoSubHuj71uhgGgoxbON?usp=sharing))
+[Visit our Colab Project](https://colab.research.google.com/drive/1HaKfQf_nTephfoSubHuj71uhgGgoxbON?usp=sharing "Colab Project")
 
 ## Requirements
 
