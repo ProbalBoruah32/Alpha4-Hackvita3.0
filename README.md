@@ -4,6 +4,15 @@ This program helps extract key insights from legal documents using AI-powered te
 
 [Visit our Colab Project](https://colab.research.google.com/drive/1HaKfQf_nTephfoSubHuj71uhgGgoxbON?usp=sharing "Colab Project")
 
+### Judgements:
+[Judgement 1](https://youtu.be/8K_agXkB7go "Video 1")
+
+[Judgement 2](https://youtu.be/szhH_-Qd1rw "Video 2")
+
+Final Judgement using llama3 from groq cloud: https://github.com/user-attachments/assets/fbe03f31-37ca-4793-8afd-32134279a4b6
+
+
+
 ## Requirements
 
 ### 1. Install Dependencies
