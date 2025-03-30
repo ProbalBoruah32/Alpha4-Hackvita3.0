@@ -160,6 +160,45 @@ Strong Points:
   pip install graphviz
   ```
 
+# Groq API Text-to-Speech Project
+
+## Overview
+This project utilizes the **Groq API**, **Edge TTS**, and various Python libraries to process text and convert it into speech. It supports clipboard operations and integrates audio processing capabilities.
+
+## Features
+- **Text-to-Speech (TTS) conversion** using **Edge TTS**
+- **Clipboard support** with **pyperclip**
+- **Audio processing** with **pydub** and **pyaudio**
+- **Wave file handling** using the built-in **wave** module
+- **Asynchronous execution** for better performance
+
+## Installation
+Before running the script, install the required dependencies:
+
+```bash
+pip install groq pyperclip edge-tts pydub pyaudio
+```
+
+## Usage
+Run the script using:
+
+```bash
+python main.py
+```
+
+## Groq API Setup
+To use the **Groq API**, generate your API key here: [Groq API Key](https://console.groq.com/keys)
+
+## Dependencies
+- **Python 3.8+**
+- **Groq API** (for text processing)
+- **Edge TTS** (for speech synthesis)
+- **Pydub & Pyaudio** (for audio handling)
+- **Pyperclip** (for clipboard operations)
+- **Wave** (for handling WAV files)
+
+
+
 ## Author
-Developed by **[Your Name]** 🚀
+Developed by **[Debanga and Probal]** 🚀
 
