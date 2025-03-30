@@ -66,3 +66,98 @@ This tool provides an efficient way to analyze large legal texts quickly, making
 
 For further questions or improvements, feel free to contribute!
 
+
+
+# Legal Text Summarizer
+
+## Overview
+This project is a **Legal Text Summarizer** that extracts key points from legal documents. It utilizes **Legal-BERT** for understanding legal text, applies **K-Means clustering** to find important sentences, and provides features like **PDF text extraction, OCR (image-to-text), and text-to-speech conversion**.
+
+## Features
+- Extracts text from **PDF documents** (both normal and scanned PDFs)
+- Uses **Legal-BERT** to generate embeddings for sentences
+- Applies **K-Means clustering** to group similar sentences and extract key points
+- Generates a **PDF report** of the key points
+- Converts **scanned PDF images into text using OCR** (Tesseract)
+- Supports **text-to-speech conversion** for extracted text
+- Creates a **Legal-BERT training process visualization**
+
+## Installation
+
+Before using this project, install the required dependencies using:
+
+```bash
+pip install transformers[torch] sentencepiece PyPDF2 scikit-learn
+pip install pytesseract pdf2image Pillow gTTS
+pip install reportlab graphviz matplotlib numpy pandas
+```
+
+Additionally, install **Poppler** and **Tesseract OCR** (for image-based PDFs):
+
+```bash
+apt-get install poppler-utils tesseract-ocr libtesseract-dev
+```
+
+## Usage
+
+### 1. Running the Program
+To use the program, run the following command:
+
+```bash
+python main.py
+```
+
+### 2. Entering the PDF File Path
+After running the script, it will prompt you to enter the path to the PDF file:
+
+```bash
+Enter the path to the PDF file: your_document.pdf
+```
+
+### 3. Output
+The program will:
+- Extract and display the **most important sentences** from the document
+- Save a **PDF report** containing the extracted key points
+- Convert scanned images into text (if needed)
+- Convert extracted text into speech and play the audio
+- Generate a **visual representation** of the Legal-BERT model training
+
+## How It Works
+
+1. **Extracting Text:** Reads text from PDFs (both standard and scanned documents using OCR).
+2. **Preprocessing:** Converts text to lowercase and removes special characters.
+3. **Generating Embeddings:** Uses **Legal-BERT** to understand sentence meanings.
+4. **Clustering Sentences:** Groups similar sentences using **K-Means clustering**.
+5. **Extracting Key Sentences:** Selects the most representative sentences from each cluster.
+6. **Generating Output:** Displays results, creates a PDF report, and plays text-to-speech audio.
+
+## Example Output
+```
+Strong Points:
+1. The contract must be executed in accordance with the laws of the state.
+2. Any disputes shall be resolved through arbitration.
+3. The parties agree to the terms stated in this agreement.
+...
+```
+
+## Dependencies
+- **Python 3.8+**
+- **PyPDF2** (for PDF text extraction)
+- **Transformers (Hugging Face)** (for Legal-BERT embeddings)
+- **Scikit-Learn** (for K-Means clustering)
+- **Tesseract OCR** (for image-based PDFs)
+- **gTTS** (for text-to-speech conversion)
+- **ReportLab** (for PDF report generation)
+- **Graphviz** (for training process visualization)
+
+## Notes
+- Ensure **Tesseract OCR** is installed properly for text extraction from scanned PDFs.
+- You can modify the **number of extracted key points** in the `extract_strong_points` function.
+- If you encounter an error with **Graphviz**, try reinstalling it using:
+  ```bash
+  pip install graphviz
+  ```
+
+## Author
+Developed by **[Your Name]** 🚀
+
