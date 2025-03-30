@@ -4,6 +4,8 @@ This program helps extract key insights from legal documents using AI-powered te
 
 [Visit our Colab Project](https://colab.research.google.com/drive/1HaKfQf_nTephfoSubHuj71uhgGgoxbON?usp=sharing "Colab Project")
 
+[Our Problem Solution Intro](https://youtu.be/A7MzZ8qAPJ4?si=3MrwAH1qS_MjcV94 "Video intro")
+
 ### Judgements:
 [Judgement 1](https://youtu.be/8K_agXkB7go "Video 1")
 
