@@ -160,7 +160,7 @@ Strong Points:
   pip install graphviz
   ```
 
-# Groq API Text-to-Speech Project
+# Groq API for llama varify judegement
 
 ## Overview
 This project utilizes the **Groq API**, **Edge TTS**, and various Python libraries to process text and convert it into speech. It supports clipboard operations and integrates audio processing capabilities.
